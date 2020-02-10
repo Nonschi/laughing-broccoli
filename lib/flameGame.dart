@@ -75,7 +75,7 @@ class FlameGame extends Game {
     if(this.startingGame) {
       if (!gameOver) {
         if (sensor.accl[0] != null) {
-          if (sensor.gyro[1] < -15) {
+          if (sensor.gyro[1] < -10) {
             duck.onTap();
           }
         }
